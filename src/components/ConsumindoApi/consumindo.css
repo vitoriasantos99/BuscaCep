@@ -1,0 +1,23 @@
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+img{
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+button:hover{
+    transition: 0.9s;
+    color: black;
+}
