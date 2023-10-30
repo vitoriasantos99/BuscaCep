@@ -1,11 +1,11 @@
 import Logo from '../../images/logo.png';
+import menu from '../../images/cep.jpg'
 import './header.css';
 
 function Header() {
     return(
         <header className="header-menu">
-            <img src={Logo} alt='Logo' className="img-logo"/> 
-            <h3>Bem vindo Ninja!</h3>
+            {/* <img src={menu} alt='Logo' className="img-logo"/>  */}
         </header>
     )
 }
