@@ -13,6 +13,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 85%;
 }
 form{
     /* background-image: url("/src/images/SP.jpg"); */
@@ -25,23 +26,30 @@ h1{
     flex-direction: column;
 }
 input, button{
-    border-radius: 5px;
-    margin: 2px;
+    border-radius: 7px;
+    margin: 5px;
     padding: 5px;
-    color: black;
+    /* color: black; */
 }
+input, button:hover{
+    background-color: black;
+    color: pink;
+    transition: 0.9s;
+}
+
 img{
     /* padding: 10px; */
-    width: 100%!important;
-    height: 300px;
-    position: relative;
+    width: 80%!important;
+    height: 250px;
+    /* position: relative; */
 }
 input{
     text-align: center;
 }
 p{
-    color: black;
-    font-size: 20px;
+    color: pink;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace
 }
 /* .map-responsive{
     overflow:hidden;
